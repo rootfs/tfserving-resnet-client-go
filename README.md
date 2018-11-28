@@ -18,6 +18,12 @@ go build resnet.go
 
 ### Test
 
+- Start Resnet model server
+```console
+ docker run -p 8500:8500 -p 8501:8501 -t docker.io/rootfs/resnet_serving &
+```
+- Test against resnet model
+
 ```console
 # ./resnet --serving-address localhost:8500 ./cat.jpg
 2018/11/28 16:08:32 classes: [286]
