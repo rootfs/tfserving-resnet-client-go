@@ -1,6 +1,6 @@
 # Tensorflow Serving ResNet Go Client
 
-(test against tensorflow b4add48e633ce9e1ecda25eade56638e0a8808e5 and tensorflow-serving 5446fd973de228693c1652acd4922dc4b177f77a)
+(test against tensorflow `b4add48e633ce9e1ecda25eade56638e0a8808e5` and tensorflow-serving `5446fd973de228693c1652acd4922dc4b177f77a`)
 
 ## Generate vendor
 
@@ -9,7 +9,7 @@ git clone https://github.com/tensorflow/serving.git
 git clone https://github.com/tensorflow/tensorflow.git
 
 ./gen.sh
-
+```
 ### Build client
 
 ```bash
