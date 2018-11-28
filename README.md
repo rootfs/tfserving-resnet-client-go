@@ -28,3 +28,6 @@ go build resnet.go
 # ./resnet --serving-address localhost:8500 ./cat.jpg
 2018/11/28 16:08:32 classes: [286]
 ```
+# Acknowledgement
+
+Inspired by this [inception client](https://mauri870.github.io/blog/posts/tensorflow-serving-inception-go/)
